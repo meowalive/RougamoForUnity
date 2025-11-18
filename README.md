@@ -1,0 +1,12 @@
+根据LoxodonFramework 为Rougamo提供了Unity支持。
+使用方法：
+添加FodyWeavers
+```
+<?xml version="1.0" encoding="utf-8"?>
+<Weavers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AssemblyNames>
+		<Item>YOUR-ASSEMBLY</Item>
+	</AssemblyNames>
+	<Rougamo />
+</Weavers>
+```
