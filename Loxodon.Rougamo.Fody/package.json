@@ -1,0 +1,25 @@
+{
+  "name": "com.meowalive.loxodon.fody.rougamo",
+  "displayName": "Loxodon Framework.Fody Plugin Rougamo",
+  "version": "5.0.2",
+  "unity": "6000.0",
+  "description": "Integrate Rougamo Fody Plugin into Unity Project using Loxodon Framework.",
+  "license": "MIT",
+  "keywords": [
+    "Fody",
+    "Weaver",
+    "Rougamo",
+    "Loxodon"
+  ],
+  "author": {
+    "name": "MeowAlive",
+    "email": "meowstudio@yeah.net",
+    "url": "https://github.com/meowalive"
+  },
+  "dependencies": {
+    "com.vovgou.loxodon-framework-fody": "2.6.7"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  }
+}
