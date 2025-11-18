@@ -1,7 +1,11 @@
 根据LoxodonFramework 为Rougamo提供了Unity支持。
+
 安装方法：
+
 1.在Unity包管理器中使用“从git URL添加包......”添加以下包。选择：
+
 `https://github.com/meowalive/RougamoForUnity.git?path=Loxdon.Rougamo.Fody`
+
 2：配置FodyWeavers.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
