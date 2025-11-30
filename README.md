@@ -1,6 +1,8 @@
 根据LoxodonFramework 为Rougamo提供了Unity支持。
 
-安装方法：
+关于更多特性见仓库：`https://github.com/inversionhourglass/Rougamo`
+
+## 安装方法：
 
 1.在Unity包管理器中使用“从git URL添加包......”添加以下包。选择：
 
@@ -18,3 +20,7 @@
 	<Rougamo />
 </Weavers>
 ```
+## 疑似不支持的特性
+1. 方法参数不能是Ref Struct，否则无法编织。
+2. 无法使用程序集批量编织method，get/set可以。
+3. 单例模式的属性疑似无法正常工作，对象池属性/结构体/接口正常工作。
